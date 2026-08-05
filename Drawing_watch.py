@@ -10,7 +10,7 @@ load_dotenv()
 
 # FILE PATHS
 drawingScript = os.getenv("DRAWING_SCRIPT")
-drawingDirectory = os.getenv("DRAWING_DIRECTORY")
+drawingDirectory = os.getenv("DRAWING_SCRIPT_PATH")
 drawingFile = os.getenv("DRAWING_FILE")
 drawingScriptDirectory = os.getenv("DRAWING_SCRIPT_PATH")
 
